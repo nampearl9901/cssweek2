@@ -1,0 +1,212 @@
+body{
+    font-family: 'Kanit' ;
+    margin: 0;
+    padding: 0;
+ 
+    
+ 
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+header{
+    padding: 5px 5px 5px 15px ;
+    display:  flex;
+    background-color: antiquewhite;
+ 
+}
+header ul{
+    display: flex;
+    margin: 30px;
+    
+    
+}
+
+  
+
+header .menu li{
+font-size: 18px;
+    margin-left: 50px;
+    
+    
+}
+/*  */
+
+.menu a {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .menu a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: scale(1);
+    z-index: -1;
+  }
+  
+  .menu a:hover {
+    transform: scale(1.5);
+    background-color: antiquewhite;
+  }
+  
+  .menu a:hover::before {
+    transform: scale(0);
+    background-color: antiquewhite;
+  }
+  .logo a {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .logo a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: scale(1);
+    z-index: -1;
+  }
+  
+  .logo a:hover {
+    transform: scale(1.2);
+    background-color: antiquewhite;
+  }
+  
+  .logo a:hover::before {
+    transform: scale(0.2);
+    background-color: antiquewhite;
+  }
+  /*  */
+header .menu{
+  
+    margin-left: 20%;
+}
+header .logo{
+   margin-left: 15%;
+}
+header .logo li {
+    margin-left: 30px;
+}
+.banner {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text__main{
+    font-weight:100;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.product__variant{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px; 
+  
+
+}
+main{
+    margin-bottom: 50px;
+}
+.content{
+    justify-content: center;
+    text-align: center;
+}
+.content .button .tgh{
+    color: #777;
+    background: #f5f5f5;
+    padding: 12px;
+
+}
+.content .button .mh{
+    color: #0a0808;
+    background: #ec8585;
+    padding: 12px;
+
+}
+footer{
+
+    background: #0a0808;
+  padding: 30px;
+    margin: 0;
+    display: flex;
+}
+footer h1 a{
+    color: #fff;
+}
+footer ul{
+    color: #fff;
+}
+
+.button a {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .button a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: scale(1);
+    z-index: -1;
+  }
+  
+  .button a:hover {
+    transform: scale(1.2);
+    background-color: #950000; /* Thay đổi màu sắc tùy ý */
+  }
+  
+  .button a:hover::before {
+    transform: scale(0);
+    background-color: rgba(30, 29, 29, 0.5); /* Thay đổi màu sắc tùy ý */
+  }
+
+  .tintuc{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  text-align: justify;
+
+  margin-left: 20px;
+  
+  }
+ 
+
+  .tintuc p{
+    font-family: ' Arial, sans-serif';
+    font-weight: 100;
+    
+  }
+  .tintuc__content img{
+    padding: 30px 30px 0px;
+  }
+  .tintuc__content{
+    padding: 30px;
+  }
